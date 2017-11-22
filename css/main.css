@@ -1,0 +1,163 @@
+/***** BASE STYLES *****/
+
+#body   {font-family: 'Gill Sans';}
+
+#about, #work, #contact {height: 600px;
+}
+
+/***** GRID *****/
+.full-width {width: 1200px;
+            margin: 0 auto;
+}
+.half-width {width: 600px;
+            margin: 0 auto;
+            float:left;
+}
+.third-width {width: 400px;
+              margin: 0 auto;
+              float:left;
+}
+
+/****** HEADER ******/
+header {height: 800px;
+        background: url('../img/purple-background.png');
+        background-size: cover;
+}
+
+header img {margin: 15px;
+}
+
+header h1 {font-family: 'gill sans';
+           color: #003399;
+           size: 18px;
+           display: inline-flex;
+           padding-left: 45px;
+           line-height: 105px;
+}
+
+nav {float: right;
+     padding: 75px 40px;
+}
+
+nav ul li {display: inline-block;
+}
+
+nav ul li a {text-transform: capitalize;
+            text-decoration: none;
+            font-size: 18px;
+            color: #003399;
+            padding-left: 80px;
+}
+
+header h2 {width: 1000px;
+          font-family: 'Courgette';
+          clear: both;
+          font-size: 72px;
+          line-height: 82px;
+          color: #663399;
+}
+
+header h2 span {color: #ffffff;
+}
+header ul {list-style: none;
+          float:right;
+}
+
+header ul li {display: inline-block;
+              float:right;
+}
+
+header ul img {float:right;
+}
+
+
+/****** ABOUT ******/
+#about .full-width {padding: 80px 0;
+}
+
+#about h2 {font-family: 'Courgette';
+          font-size: 36px;
+          color: #663399;
+}
+
+#about p {font-family: 'gill sans';
+          font-size: 21px;
+          color: #6699cc;
+          line-height: 42px;
+          padding-right: 50px;
+}
+
+
+/****** WORK ******/
+#work  {background:  #6699cc;
+        text-align: center;
+}
+
+#work .full-width {padding: 115px 0;
+}
+
+#work img {border: 12px solid #ffffff;
+}
+
+#work h3  {font-family: 'courgette';
+          font-size: 24px;
+          line-height: 48px;
+          color: #663399;
+          margin: 0 auto;
+}
+
+#work p {font-family: 'gill sans';
+         font-size: 18px;
+         line-height: 36px;
+         color: #003399;
+         padding: 0 35px;
+}
+
+/****** CONTACT ******/
+#contact  {background: url('../img/kd-desktop.jpg');
+}
+
+#contact .full-width {padding: 110px 0;
+}
+
+#contact-img        {border: 12px solid #ffffff;
+}
+
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+                padding-left: 115px;
+}
+
+#envelope {padding: 0 10px 0 115px;
+}
+
+#contact h2 {font-family: 'gill sans';
+             font-size: 36px;
+             color: #ffffff;
+}
+
+#email-header{font-size: 32px;
+              font-weight: normal;
+              margin: -30px 0 5px 0;
+              color: #99ccff;
+}
+
+#socialmedia-header {font-weight: bold;
+                     font-size: 29px;
+                     margin: 40px 0 0 0;
+}
+
+#contact a {text-decoration: inherit;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 28px;
+}
+
+#contact ul {list-style: none;
+}
+
+#contact ul li {display: inline-block;
+}
+
+#contact ul img {padding-right: 48px;
+}
